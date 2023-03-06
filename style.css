@@ -1,0 +1,75 @@
+/*HEADER & FOOTER*/
+header, footer {
+	background: brown;
+	color: white;
+	margin: 0;
+	padding: 10px;
+}
+
+
+/*NAVIGATION BAR*/
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	padding: 5px;
+	background-color: darkorange;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color:white;
+	background-color: orange;
+}
+
+/*MAIN*/
+main {
+	min-height: 430px;
+	margin: 0;
+	padding: 10px;
+}
+
+
+/*TABLE*/
+table {
+	border-collapse: collapse;
+}
+
+
+
+/*MESSAGE*/
+.error {
+	color: red;
+}
+
+.success {
+	color: green;
+}
+
+
+/*OTHERS*/
+.locationlist {
+	display: block;
+	border: 1px solid red;
+	float: left;
+}
+
+.geomap {
+	border: 1px solid green;
+}
+
+
+/* Set the size of the div element that contains the map */
+#map {
+height: 400px;
+/* The height is 400 pixels */
+width: 55%;
+/* The width is the width of the web page */
+}
